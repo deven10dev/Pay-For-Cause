@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "428548640708",
+    "firebase_url": "https://payforcause-f5bef.firebaseio.com",
+    "project_id": "payforcause-f5bef",
+    "storage_bucket": "payforcause-f5bef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428548640708:android:4d4fa3ce2e83d6d8539e91",
+        "android_client_info": {
+          "package_name": "com.example.pay_for_cause"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428548640708-h0gjfh4028v6kq0lfr1nv14qhd9b2d4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApDjiWsmkEhoUVDx6aZKNcy8qSkZvBX0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428548640708-h0gjfh4028v6kq0lfr1nv14qhd9b2d4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
