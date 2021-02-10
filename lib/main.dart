@@ -11,7 +11,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pay_for_cause/screens/navigation_screen.dart';
 import 'package:pay_for_cause/screens/org_around_me.dart';
-import 'package:pay_for_cause/screens/org_owner_edit.dart';
 import 'package:pay_for_cause/screens/select_city_screen.dart';
 import 'package:pay_for_cause/screens/welcome_screen.dart';
 import 'package:pay_for_cause/screens/admin_control_screen.dart';
@@ -68,9 +67,6 @@ class MyApp extends StatelessWidget {
             ChangeAccountsType.id: (context) => ChangeAccountsType(),
             OrgInfoScreen.id: (context) => OrgInfoScreen(
                   ngoData: ModalRoute.of(context).settings.arguments,
-                ),
-            OrgOwnerEdit.id: (context) => OrgOwnerEdit(
-                  editData: ModalRoute.of(context).settings.arguments,
                 ),
             DonationScreen.id: (context) => DonationScreen(
                   ngoData: ModalRoute.of(context).settings.arguments,
